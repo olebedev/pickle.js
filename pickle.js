@@ -40,7 +40,7 @@ this.pickle = (new function() {
     var LONG        = "L"
     var NONE        = "N"
     var STRING      = "S"
-    var Y_STR       = "V"
+    var UNICODE     = "V"
     
     var APPEND      = "a"
     var DICT        = "d"
@@ -126,8 +126,8 @@ this.pickle = (new function() {
                 stack.push(arg0)
                 //console.log("string", arg0)
                 break
-            case Y_STR:
-                arg0 = eval(op.slice(1))
+            case UNICODE:
+                arg0 = op.slice(1)
                 stack.push(arg0)
                 //console.log("string", arg0)
                 break
