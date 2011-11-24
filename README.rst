@@ -2,15 +2,13 @@ Pickle.js is a JavaScript implementation of the Python pickle format.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 It supports pickles containing a cross-language subset of the primitive types.
 
-Fokred from `google code <http://code.google.com/p/pickle-js/>`_ repo.
-
-For what?
-~~~~~~~~~
-
-Added support for "long" data type.
+Fokred from Frank Salim's `google code <http://code.google.com/p/pickle-js/>`_ repo.
+For what? To added support for "long" data type.
+If you want to see how it works, open ``index.html`` in your browser.
+And push the button.
 
 API
-===
+---
 
 The API for pickle.js was chosen to match the Python pickle module.
 
