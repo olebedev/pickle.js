@@ -4,8 +4,8 @@ It supports pickles containing a cross-language subset of the primitive types.
 
 Fokred from Frank Salim's `google code <http://code.google.com/p/pickle-js/>`_ repo.
 For what? To added support for ``LONG`` and ``UNICODE`` data type.
-If you want to see how it works, open ``index.html`` in your browser.
-And push the button.
+If you would like to see how it works, open ``index.html`` in your browser
+and press the button.
 
 API
 ---
